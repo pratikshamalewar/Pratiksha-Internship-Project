@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+/* .profile-info {
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+
+.profile-card {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.background-image {
+    position: relative;
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.HoIF3optACn6K97uZ67csgHaEO&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+/* .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+} */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Shifted to left */
+    transform: translateY(-50%);
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left; /* Align text to the left */
+}
+.overlay-text h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.overlay-text p {
+    font-size: 1.2em;
+    margin: 10px 0;
+
+}
+
+.overlay-text button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.overlay-text button:hover {
+    background-color: #ff4b3a;
+    
+}
+
+.profile-info {
+    padding: 20px;
+}
+
+.profile-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-info h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.profile-info p {
+    font-size: 1em;
+    color: #666;
+ }
+    
